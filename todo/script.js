@@ -42,7 +42,7 @@ addButton.addEventListener("click", () => {
 taskInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
       addButton.click();
-    }
+  }
   });
 
 // Clicks on task list (delete or complete)
